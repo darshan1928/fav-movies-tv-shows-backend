@@ -7,7 +7,13 @@ const errorHandler = require('./middlewares/errorHandler');
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: [
+    "http://localhost:5173", 
+    "https://favorite-movies-tv-shows-web-applic.vercel.app", 
+  ],
+  credentials: true,
+}));
 app.use(express.json());
 
 // Static files for image upload
