@@ -141,7 +141,7 @@ Update `CLIENT_URL` in `.env` to match deployed frontend URL (e.g. Vercel).
 
 ## 📅 Frontend Repo
 
-If you’re looking for the backend:
+If you’re looking for the frontend:
 
 > [Frontend Repo](https://github.com/darshan1928/Favorite-Movies-TV-Shows-Web-Application.git) 
 
