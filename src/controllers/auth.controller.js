@@ -21,7 +21,7 @@ exports.login = async (req, res, next) => {
 
 
 exports.getProfile = async (req, res) => {
-  console.log("test")
+  
   try {
     const user = await userService.findById(req.user.id);
     res.json({ name: user.name, email: user.email });
